@@ -8,3 +8,10 @@ The largest difference is the usage of Ascii art for the acceptance message.
 
 I used curses for the implementation of the rotating ASCII art on Linux.
 Also, many props to this text to Ascii art generator I found, which greatly sped up the process: https://patorjk.com/software/taag/
+
+Notable features of this program:
+- Input checking and variable responses for different length/types of messages
+- Terminal manipulation with rewriting over prior printed lines
+- Linux/Windows compatibility using branching logic
+- Usage of system commands (such as fflush and nanosleep) to messages are printed when they should be
+- Fun Ascii art
