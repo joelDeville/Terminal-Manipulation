@@ -15,3 +15,6 @@ Notable features of this program:
 - Linux/Windows compatibility using branching logic
 - Usage of system commands (such as fflush and nanosleep) to ensure messages are printed when they should be
 - Fun Ascii art (varying from one-line rotations to multi-line rotations)
+
+Fun programming fact: initializing a char* (like char* str = "...") places it within the read-only portion of the stack frame.
+Whereas, initializing a char[] (like char str[] = "...") places it into the stack, which allows modifications.
