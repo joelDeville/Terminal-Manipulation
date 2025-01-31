@@ -13,5 +13,5 @@ Notable features of this program:
 - Input checking and variable responses for different length/types of messages
 - Terminal manipulation with rewriting over prior printed lines
 - Linux/Windows compatibility using branching logic
-- Usage of system commands (such as fflush and nanosleep) to messages are printed when they should be
-- Fun Ascii art
+- Usage of system commands (such as fflush and nanosleep) to ensure messages are printed when they should be
+- Fun Ascii art (varying from one-line rotations to multi-line rotations)
